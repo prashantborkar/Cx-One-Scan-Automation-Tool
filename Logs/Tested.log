@@ -1,0 +1,78 @@
+Microsoft Windows [Version 10.0.22631.3737]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\system\Downloads\CheckMarx-Scan\Project>python -u "c:\Users\system\Downloads\CheckMarx-Scan\Project\CLI-Executor.py"
+Executing Java scan...
+Loaded properties from file: C:/Users/system/Downloads/CheckMarx-Scan/Project/application.properties
+2024/07/16 22:11:43
+
+Scanning branch main...
+
+Scan ID      : d144f8d6-d231-484d-820d-4ee9dfe002d4
+Project ID   : afcbdae3-282b-4e4a-9e71-3d525ae606d2
+Project Name : Recruitment Assignment
+Status       : Running
+Created at   : 07-16-24
+Branch       : main
+Tags         : []
+Type         : Full
+Timeout      : NONE
+Initiator    : pfborkar@gmail.com
+Origin       : ASTCLI 2.2.0
+Engines      : [ sast kics sca apisec]
+
+2024/07/16 22:11:43 Wait for scan to complete d144f8d6-d231-484d-820d-4ee9dfe002d4 Running
+2024/07/16 22:11:49 Scan status:  Running
+2024/07/16 22:11:55 Scan status:  Running
+2024/07/16 22:12:00 Scan status:  Running
+2024/07/16 22:12:06 Scan status:  Running
+2024/07/16 22:12:11 Scan status:  Running
+2024/07/16 22:12:18 Scan status:  Running
+2024/07/16 22:12:25 Scan status:  Running
+2024/07/16 22:12:32 Scan status:  Running
+2024/07/16 22:12:38 Scan status:  Running
+2024/07/16 22:12:45 Scan status:  Running
+2024/07/16 22:12:53 Scan status:  Running
+2024/07/16 22:13:01 Scan status:  Running
+2024/07/16 22:13:08 Scan status:  Running
+2024/07/16 22:13:16 Scan status:  Running
+2024/07/16 22:13:24 Scan status:  Running
+2024/07/16 22:13:32 Scan status:  Running
+2024/07/16 22:13:41 Scan status:  Running
+2024/07/16 22:13:50 Scan status:  Running
+2024/07/16 22:13:58 Scan status:  Running
+2024/07/16 22:14:07 Scan Finished with status:  Completed
+2024/07/16 22:14:16 Creating JSON Report:  C:\Users\system\Downloads\CheckMarx-Scan\Project\Reports\cx_result.json
+            Scan Summary:
+              Created At: 2024-07-16, 22:11:43
+              Project Name: Recruitment Assignment
+              Scan ID: d144f8d6-d231-484d-820d-4ee9dfe002d4
+
+            Results Summary:
+              Risk Level: Low Risk
+              ---------------------------------------------------------
+
+              Total Results: 7
+              ---------------------------------------------------------
+              |               High    Medium   Low   Info   Status    |
+              | APIs            0        0      0      0   Completed  |
+              | IAC             0        0      0      0   Completed  |
+              | SAST            0        0      2      6   Completed  |
+              | SCA             0        0      0      0   Completed  |
+              ---------------------------------------------------------
+              | TOTAL           0        0      2      6   Completed  |
+              ---------------------------------------------------------
+
+              API Security - Total Detected APIs: 5
+              APIS WITH RISK: 0
+              ---------------------------------------------------------
+
+              Checkmarx One - Scan Summary & Details: https://eu.ast.checkmarx.net/projects/afcbdae3-282b-4e4a-9e71-3d525ae606d2/scans?id=d144f8d6-d231-484d-820d-4ee9dfe002d4&branch=main
+Command executed successfully
+Java process completed with exit code: 0
+Java scan execution complete.
+Running Process.py...
+Found the most recent JSON file: C:/Users/system/Downloads/CheckMarx-Scan/Project/Reports/cx_result.json
+Email sent successfully!
+
+C:\Users\system\Downloads\CheckMarx-Scan\Project>
