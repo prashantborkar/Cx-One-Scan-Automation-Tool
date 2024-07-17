@@ -16,7 +16,7 @@ Checkmarx One Server Scan Automation Tool developed for ease the scan process of
 
 Note:
 
-- According to your Operating Systems USE correct AST-CLI.
+- According to your Operating Systems use correct # AST-CLI.
 - To log in to Checkmarx One Server, you need an API Key. Generate an API key from the Checkmarx platform and use it in the CLI properties file under the key "checkmarx.api.key".
 
 # Procedure to Run the Tool:
