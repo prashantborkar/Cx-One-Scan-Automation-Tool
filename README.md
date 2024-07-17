@@ -1,4 +1,4 @@
-++# Cx-One-Scan-Automation-Tool
+# Cx-One-Scan-Automation-Tool
 Checkmarx One Server Scan Automation Tool developed for ease the scan process of Client.
 
 # Prerequisites to Run this Tool:
@@ -11,11 +11,12 @@ Checkmarx One Server Scan Automation Tool developed for ease the scan process of
 
 4. CheckMarx One Server Account: Access credentials with appropriate group permissions.
 
-5. CheckMarx CLI: Install CheckMarx Command Line Interface (CLI). [Refer to Download ast-cli - https://github.com/Checkmarx/ast-cli/releases]
+5. CheckMarx CLI (Choose according to OS): Download CheckMarx Command Line Interface (CLI). [Refer to Download ast-cli - https://github.com/Checkmarx/ast-cli/releases]
 
 
 Note:
 
+- According to your Operating Systems USE correct AST-CLI.
 - To log in to Checkmarx One Server, you need an API Key. Generate an API key from the Checkmarx platform and use it in the CLI properties file under the key "checkmarx.api.key".
 
 # Procedure to Run the Tool:
