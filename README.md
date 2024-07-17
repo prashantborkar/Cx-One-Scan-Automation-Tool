@@ -1,7 +1,7 @@
 # Cx-One-Scan-Automation-Tool
 Checkmarx One Server Scan Automation Tool developed for ease the scan process of Client.
 
-Prerequisites to Run this Tool:
+# Prerequisites to Run this Tool:
 
 1. Java 1.8: Ensure Java Development Kit (JDK) version 1.8 or higher is installed.
 
@@ -18,7 +18,7 @@ Note:
 
 - To log in to Checkmarx One Server, you need an API Key. Generate an API key from the Checkmarx platform and use it in the CLI properties file under the key "checkmarx.api.key".
 
-Procedure to Run the Tool:
+# Procedure to Run the Tool:
 
 - This tool is compatible with multiple environments.
 
