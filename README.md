@@ -11,7 +11,7 @@ Checkmarx One Server Scan Automation Tool developed for ease the scan process of
 
 4. CheckMarx One Server Account: Access credentials with appropriate group permissions.
 
-5. CheckMarx CLI: Install CheckMarx Command Line Interface (CLI).
+5. CheckMarx CLI: Install CheckMarx Command Line Interface (CLI). [Refer to Download ast-cli - https://github.com/Checkmarx/ast-cli/releases]
 
 
 Note:
