@@ -26,7 +26,14 @@ def load_json_report(file_path):
         return json.load(file)
 
 def analyze_json_report(report_data):
-    results = report_data.get("results", [])
+    results = report_data.get("results")
+    
+    # Check if results is None or empty
+    if results is None or len(results) == 0:
+        scan_id = report_data.get("scanID", "Unknown Scan ID")
+        severity_count = {"High": 0, "Medium": 0, "Low": 0, "Information": 0}
+        vulnerability_summary = {"High": [], "Medium": [], "Low": [], "Information": []}
+        return severity_count, vulnerability_summary, f"Risk Level: No Risk with this build, as scan ID is {scan_id}"
 
     # Initialize severity and vulnerability dictionaries
     severity_count = {"High": 0, "Medium": 0, "Low": 0, "Information": 0}
@@ -53,6 +60,7 @@ def analyze_json_report(report_data):
             vulnerability_summary[severity].append(finding_summary)
     
     return severity_count, vulnerability_summary, scan_id
+
 
 
 def send_summary_email(summary_data, recipients, smtp_server, smtp_port, sender_email, password):
