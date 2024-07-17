@@ -1,11 +1,11 @@
-# Cx-One-Scan-Automation-Tool
+++# Cx-One-Scan-Automation-Tool
 Checkmarx One Server Scan Automation Tool developed for ease the scan process of Client.
 
 # Prerequisites to Run this Tool:
 
 1. Java 1.8: Ensure Java Development Kit (JDK) version 1.8 or higher is installed.
 
-2. Python: Python interpreter installed on the environment.
+2. Python: Python3 interpreter installed on the environment.
 
 3. Email SMTP Account: Requires an SMTP server configuration to send email notifications.
 
